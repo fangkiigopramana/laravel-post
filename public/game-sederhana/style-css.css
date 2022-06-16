@@ -1,0 +1,54 @@
+.container{
+    margin: 80px 0px;
+    width: 1000px;
+}
+
+#score{
+    text-align: center;
+}
+
+#tugas{
+    margin: 20px auto;
+    padding: 0 15px;
+    display: table;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    background: #28a745;
+}
+
+#putaran{
+    margin: 0px auto;
+    width: 55px;
+    height: 55px;
+    background: #28a745;
+    border-radius: 50%;
+    line-height: 40px;
+    transition: all 0.35s;
+}
+
+#putaran:after{
+    content: "_ _";
+    color: white;
+    font-weight: bold;
+}
+
+.controller{
+    text-align: center;
+    margin-top: 10px;
+}
+
+button{
+    cursor: pointer;
+    color: white;
+    background: #101820;
+    border: none;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+
+button:active{
+    background: #28a745;
+}
